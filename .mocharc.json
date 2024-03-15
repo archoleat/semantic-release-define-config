@@ -1,7 +1,7 @@
 {
   "check-leaks": true,
   "exit": true,
-  "extension": ["spec.ts"],
+  "extension": ["spec-d.ts"],
   "inline-diffs": true,
   "loader": "ts-node/esm",
   "recursive": true,
