@@ -16,7 +16,14 @@
   "bugs": {
     "url": "https://github.com/archoleat/semantic-release-define-config/issues"
   },
-  "keywords": [],
+  "keywords": [
+    "archoleat",
+    "config",
+    "define-config",
+    "semantic-release-config",
+    "semantic-release-define-config",
+    "semantic-release"
+  ],
   "type": "module",
   "types": "index.d.ts",
   "exports": {

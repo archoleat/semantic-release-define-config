@@ -5,7 +5,6 @@ import { minify } from 'rollup-plugin-esbuild';
 
 import typescript from '@rollup/plugin-typescript';
 
-const declarationFile = 'index.d.ts';
 const indexFile = 'src/index.ts';
 
 export default defineConfig([
@@ -21,7 +20,7 @@ export default defineConfig([
     plugins: [dts()],
     input: indexFile,
     output: {
-      file: declarationFile,
+      file: 'index.d.ts',
     },
   },
 ]);
