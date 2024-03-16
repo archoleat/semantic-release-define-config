@@ -3,43 +3,61 @@ import type { BranchesOptions } from './options/branches.d.ts';
 /**
  * Semantic Release Configuration.
  *
- * @see [Configuration] Files (https://semantic-release.gitbook.io/semantic-release/usage/configuration)
+ * @see [Configuration](https://semantic-release.gitbook.io/semantic-release/usage/configuration)
  */
 interface SemanticReleaseConfig {
   /**
-   * @see [RepositoryUrl] (https://semantic-release.gitbook.io/semantic-release/usage/configuration#repositoryurl)
+   * An string containing git repository URL.
+   *
+   * @see [RepositoryUrl](https://semantic-release.gitbook.io/semantic-release/usage/configuration#repositoryurl)
    */
   repositoryUrl?: string;
   /**
-   * @see [Extends] (https://semantic-release.gitbook.io/semantic-release/usage/configuration#extends)
+   * An string or array of strings containing a path to a shareable configuration.
+   *
+   * @see [Extends](https://semantic-release.gitbook.io/semantic-release/usage/configuration#extends)
    */
   extends?: string | string[];
   /**
-   * @see [Branches] (https://semantic-release.gitbook.io/semantic-release/usage/configuration#branches)
+   * An array of strings or objects containing branch names.
+   *
+   * @see [Branches](https://semantic-release.gitbook.io/semantic-release/usage/configuration#branches)
    */
   branches?: Array<string | BranchesOptions>;
   /**
-   * @see [TagFormat] (https://semantic-release.gitbook.io/semantic-release/usage/configuration#tagformat)
+   * An string containing git tag format.
+   *
+   * @see [TagFormat](https://semantic-release.gitbook.io/semantic-release/usage/configuration#tagformat)
    */
   tagFormat?: string;
   /**
-   * @see [DryRun] (https://semantic-release.gitbook.io/semantic-release/usage/configuration#dryrun)
+   * A boolean value indicating whether a preview of the pending release is allowed.
+   *
+   * @see [DryRun](https://semantic-release.gitbook.io/semantic-release/usage/configuration#dryrun)
    */
   dryRun?: boolean;
   /**
-   * @see [CI] (https://semantic-release.gitbook.io/semantic-release/usage/configuration#ci)
+   * A boolean value indicating whether CI skipping is allowed.
+   *
+   * @see [CI](https://semantic-release.gitbook.io/semantic-release/usage/configuration#ci)
    */
   ci?: boolean;
   /**
-   * @see [Plugins] (https://semantic-release.gitbook.io/semantic-release/usage/configuration#plugins)
+   * An array of strings or arrays.
+   *
+   * @see [Plugins](https://semantic-release.gitbook.io/semantic-release/usage/configuration#plugins)
    */
   plugins?: Array<Array<string | Object> | string>;
   /**
-   * @see [Preset] (https://semantic-release.gitbook.io/semantic-release/usage/configuration#preset)
+   * An string with preset name, example: `conventionalcommits`
+   *
+   * @see [Preset](https://semantic-release.gitbook.io/semantic-release/usage/configuration#preset)
    */
   preset?: string;
   /**
-   * @see [Debug] (https://semantic-release.gitbook.io/semantic-release/usage/configuration#debug)
+   * A boolean value indicating whether debugging information is allowed to be output.
+   *
+   * @see [Debug](https://semantic-release.gitbook.io/semantic-release/usage/configuration#debug)
    */
   debug?: boolean;
 }
