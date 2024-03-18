@@ -25,5 +25,5 @@
     "target": "ESNext",
     "types": ["chai", "mocha"]
   },
-  "include": ["src/index.ts"]
+  "include": ["src/**/*.ts"]
 }

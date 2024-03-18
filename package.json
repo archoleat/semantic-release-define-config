@@ -40,9 +40,9 @@
     "lint:editorconfig": "editorconfig-checker",
     "lint:formatting": "prettier . --check",
     "lint:md": "remark . --quiet",
-    "lint:ts": "eslint src/index.ts --fix",
+    "lint:ts": "eslint src/**/*.ts --fix",
     "prettify": "prettier . --write",
-    "publish": "pnpm build && pnpm publish --access public",
+    "publish": "pnpm build && npm login && pnpm publish --access public",
     "commit": "cz"
   },
   "packageManager": "pnpm@8.15.3",
