@@ -1,4 +1,4 @@
-import type { BranchesOptions } from './options/branches.d.ts';
+import type { BranchesOptions } from './branches';
 
 /**
  * Semantic Release Configuration.
