@@ -19,10 +19,12 @@
   "keywords": [
     "archoleat",
     "config",
+    "configuration",
     "define-config",
     "semantic-release-config",
     "semantic-release-define-config",
-    "semantic-release"
+    "semantic-release",
+    "typescript"
   ],
   "type": "module",
   "types": "index.d.ts",
@@ -40,6 +42,7 @@
     "lint:md": "remark . --quiet",
     "lint:ts": "eslint src/index.ts --fix",
     "prettify": "prettier . --write",
+    "publish": "pnpm build && pnpm publish --access public",
     "commit": "cz"
   },
   "packageManager": "pnpm@8.15.3",
