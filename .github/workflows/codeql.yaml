@@ -4,13 +4,13 @@ on:
   pull_request:
     branches:
       - main
-    # paths:
-    #   - src/**/*.ts
+    paths:
+      - src/**/*.ts
   push:
     branches:
       - main
-    # paths:
-    #   - src/**/*.ts
+    paths:
+      - src/**/*.ts
 
 permissions:
   actions: read
