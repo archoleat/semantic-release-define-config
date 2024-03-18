@@ -57,7 +57,7 @@
     "index.js"
   ],
   "devDependencies": {
-    "@archoleat/semantic-release-define-config": "link:",
+    "@archoleat/semantic-release-define-config": "file:index.js",
     "@commitlint/cli": "^18.6.1",
     "@commitlint/config-conventional": "^18.6.3",
     "@commitlint/types": "^18.6.1",
