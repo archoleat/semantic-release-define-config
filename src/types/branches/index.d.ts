@@ -7,7 +7,7 @@ interface BranchesOptions {
    */
   name?: string;
   /**
-   * A boolean value indicating that it is a prerelease.
+   * A boolean value indicating that it is a pre-release.
    */
   prerelease?: boolean;
 }
