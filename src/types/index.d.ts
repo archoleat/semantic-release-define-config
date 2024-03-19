@@ -7,29 +7,23 @@ import type { BranchesOptions } from './branches/index.d.ts';
  */
 interface SemanticReleaseConfig {
   /**
-   * An string containing git repository URL.
-   *
-   * @see [RepositoryUrl](https://semantic-release.gitbook.io/semantic-release/usage/configuration#repositoryurl)
-   */
-  repositoryUrl?: string;
-  /**
-   * An string or array of strings containing a path to a shareable configuration.
-   *
-   * @see [Extends](https://semantic-release.gitbook.io/semantic-release/usage/configuration#extends)
-   */
-  extends?: string | string[];
-  /**
    * An array of strings or objects containing branch names.
    *
    * @see [Branches](https://semantic-release.gitbook.io/semantic-release/usage/configuration#branches)
    */
   branches?: Array<string | BranchesOptions>;
   /**
-   * An string containing git tag format.
+   * A boolean value indicating whether CI skipping is allowed.
    *
-   * @see [TagFormat](https://semantic-release.gitbook.io/semantic-release/usage/configuration#tagformat)
+   * @see [CI](https://semantic-release.gitbook.io/semantic-release/usage/configuration#ci)
    */
-  tagFormat?: string;
+  ci?: boolean;
+  /**
+   * A boolean value indicating whether debugging information is allowed to be output.
+   *
+   * @see [Debug](https://semantic-release.gitbook.io/semantic-release/usage/configuration#debug)
+   */
+  debug?: boolean;
   /**
    * A boolean value indicating whether a preview of the pending release is allowed.
    *
@@ -37,11 +31,11 @@ interface SemanticReleaseConfig {
    */
   dryRun?: boolean;
   /**
-   * A boolean value indicating whether CI skipping is allowed.
+   * An string or array of strings containing a path to a shareable configuration.
    *
-   * @see [CI](https://semantic-release.gitbook.io/semantic-release/usage/configuration#ci)
+   * @see [Extends](https://semantic-release.gitbook.io/semantic-release/usage/configuration#extends)
    */
-  ci?: boolean;
+  extends?: string | string[];
   /**
    * An array of strings or arrays.
    *
@@ -55,11 +49,17 @@ interface SemanticReleaseConfig {
    */
   preset?: string;
   /**
-   * A boolean value indicating whether debugging information is allowed to be output.
+   * An string containing git repository URL.
    *
-   * @see [Debug](https://semantic-release.gitbook.io/semantic-release/usage/configuration#debug)
+   * @see [RepositoryUrl](https://semantic-release.gitbook.io/semantic-release/usage/configuration#repositoryurl)
    */
-  debug?: boolean;
+  repositoryUrl?: string;
+  /**
+   * An string containing git tag format.
+   *
+   * @see [TagFormat](https://semantic-release.gitbook.io/semantic-release/usage/configuration#tagformat)
+   */
+  tagFormat?: string;
 }
 
 export { SemanticReleaseConfig };
