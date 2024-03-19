@@ -23,7 +23,7 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "ESNext",
-    "types": ["chai", "mocha"]
+    "types": ["vitest"]
   },
   "include": ["src/**/*.ts"]
 }
