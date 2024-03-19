@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.1.0](https://github.com/archoleat/semantic-release-define-config/compare/v1.0.0...v1.1.0) (2024-03-19)
+
+
+### Features
+
+* **specs:** migrate to `vitest` ([#9](https://github.com/archoleat/semantic-release-define-config/issues/9)) ([9ddc110](https://github.com/archoleat/semantic-release-define-config/commit/9ddc110ae914028aab20193bce5008c1eca62513))
+
+
+### Bug Fixes
+
+* remove `chai` and `mocha` types ([#10](https://github.com/archoleat/semantic-release-define-config/issues/10)) ([6f2b8a2](https://github.com/archoleat/semantic-release-define-config/commit/6f2b8a2037c5edeab590308e08aec2183a0ed034))
+
+
+### Code Refactoring
+
+* add correct paths ([b405f00](https://github.com/archoleat/semantic-release-define-config/commit/b405f0037255ba575e064f2ef1c2b0733cfe9991))
+* add correct paths ([#8](https://github.com/archoleat/semantic-release-define-config/issues/8)) ([c748732](https://github.com/archoleat/semantic-release-define-config/commit/c748732d9cef92b7acee90512368f7f9c215394f))
+* small changes ([05be0dd](https://github.com/archoleat/semantic-release-define-config/commit/05be0dd3201cb8e4159c15378add427c70c21ce6))
+* small changes ([#7](https://github.com/archoleat/semantic-release-define-config/issues/7)) ([a64fd49](https://github.com/archoleat/semantic-release-define-config/commit/a64fd49ddb7a22e50a5d0126bc92800d79976d64))
+
 ## 1.0.0 (2024-03-18)
 
 
