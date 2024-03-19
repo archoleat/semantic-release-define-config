@@ -22,13 +22,13 @@
 ## Installation
 
 ```shell
-# npm
-npm i -D @archoleat/semantic-release-define-config
+# pnpm
+pnpm i -D @archoleat/semantic-release-define-config
 ```
 
 ```shell
-# pnpm
-pnpm i -D @archoleat/semantic-release-define-config
+# npm
+npm i -D @archoleat/semantic-release-define-config
 ```
 
 ```shell
@@ -41,6 +41,7 @@ yarn add -D @archoleat/semantic-release-define-config
 See [Semantic Release Configuration](https://semantic-release.gitbook.io/semantic-release/usage/configuration#options).
 
 ```js
+// release.config.js
 import { defineConfig } from '@archoleat/semantic-release-define-config';
 
 export default defineConfig({

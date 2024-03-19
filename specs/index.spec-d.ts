@@ -1,32 +1,27 @@
-// import { expect } from 'chai';
-// import { describe, it } from 'mocha';
+import { describe, expectTypeOf, test } from 'vitest';
 
-// import type { SemanticReleaseConfig } from '../src/types/index.d.ts';
+import type { SemanticReleaseConfig } from '../src/types/index.d.ts';
 
-// import { defineConfig } from '../src/index.ts';
+import { defineConfig } from '../src/index.ts';
 
-// describe('define', () => {
-//   it('define empty config', () => {
-//     expectTypeOf(defineConfig({})).toEqualTypeOf<SemanticReleaseConfig>();
-//   });
+describe('Define Config', () => {
+  test('define empty config', () => {
+    expectTypeOf(defineConfig({})).toEqualTypeOf<SemanticReleaseConfig>();
+  });
 
-//   it('define ESLint config', () => {
-//     expectTypeOf(
-//       defineConfig({
-//         env: {},
-//         extends: [],
-//         rules: {},
-//       })
-//     ).toEqualTypeOf<SemanticReleaseConfig>();
-//   });
-
-//   it('define an item of flat ESLint config', () => {
-//     expectTypeOf(
-//       defineFlatConfig({
-//         ignores: [],
-//         plugins: {},
-//         rules: {},
-//       })
-//     ).toEqualTypeOf<FlatSemanticReleaseConfig>();
-//   });
-// });
+  test('define Semantic Release config', () => {
+    expectTypeOf(
+      defineConfig({
+        branches: [],
+        ci: false,
+        debug: false,
+        dryRun: false,
+        extends: [],
+        plugins: [],
+        preset: '',
+        repositoryUrl: '',
+        tagFormat: '',
+      }),
+    ).toEqualTypeOf<SemanticReleaseConfig>();
+  });
+});
