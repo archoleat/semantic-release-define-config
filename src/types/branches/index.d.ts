@@ -1,5 +1,5 @@
 /**
- * @see [Branches](https://semantic-release.gitbook.io/semantic-release/usage/configuration#branches)
+ * @see [Branches Options](https://semantic-release.gitbook.io/semantic-release/usage/configuration#branches)
  */
 interface BranchesOptions {
   /**

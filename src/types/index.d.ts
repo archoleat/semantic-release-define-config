@@ -3,7 +3,7 @@ import type { BranchesOptions } from './branches/index.d.ts';
 /**
  * Semantic Release Configuration.
  *
- * @see [Configuration](https://semantic-release.gitbook.io/semantic-release/usage/configuration)
+ * @see [Configuration Options](https://semantic-release.gitbook.io/semantic-release/usage/configuration)
  */
 interface SemanticReleaseConfig {
   /**
