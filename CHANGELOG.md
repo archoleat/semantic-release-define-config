@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.1.1](https://github.com/archoleat/semantic-release-define-config/compare/v1.1.0...v1.1.1) (2024-03-27)
+
+
+### Bug Fixes
+
+* small changes ([#11](https://github.com/archoleat/semantic-release-define-config/issues/11)) ([5310f53](https://github.com/archoleat/semantic-release-define-config/commit/5310f5397efb8ad46af70985dbaee89e37ca1173))
+
+
+### Code Refactoring
+
+* **commitlint:** add `defineConfig` ([#17](https://github.com/archoleat/semantic-release-define-config/issues/17)) ([1940c36](https://github.com/archoleat/semantic-release-define-config/commit/1940c367a4e110df0a235b0a4ce557fb111c2fc2))
+* **tsconfig:** remove unused options ([#14](https://github.com/archoleat/semantic-release-define-config/issues/14)) ([546c320](https://github.com/archoleat/semantic-release-define-config/commit/546c320f8d730e06e36bf0d38f6d19956157239c))
+* **package-json:** small changes ([#15](https://github.com/archoleat/semantic-release-define-config/issues/15)) ([7c3d913](https://github.com/archoleat/semantic-release-define-config/commit/7c3d913fc53f6352de6e2385e98b8f696d163b1b))
+* **eslint:** sort alphabetically ([#13](https://github.com/archoleat/semantic-release-define-config/issues/13)) ([878a214](https://github.com/archoleat/semantic-release-define-config/commit/878a2144d197d4eb29200e70614b321186f1dfbc))
+
+
+### Documentation
+
+* **readme:** change path to test workflow ([#16](https://github.com/archoleat/semantic-release-define-config/issues/16)) ([5759b48](https://github.com/archoleat/semantic-release-define-config/commit/5759b489f8e3dcedb61921957dc8e001a93f249d))
+* **readme:** remove `troubleshooting` ([#22](https://github.com/archoleat/semantic-release-define-config/issues/22)) ([d686a0c](https://github.com/archoleat/semantic-release-define-config/commit/d686a0c8a1719d53479d115410dfd275da816646))
+
 ## [1.1.0](https://github.com/archoleat/semantic-release-define-config/compare/v1.0.0...v1.1.0) (2024-03-19)
 
 
