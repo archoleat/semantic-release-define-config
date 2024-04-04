@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.2](https://github.com/archoleat/semantic-release-define-config/compare/v1.1.1...v1.1.2) (2024-04-04)
+
+
+### Code Refactoring
+
+* **eslint:** add `extend` ([#30](https://github.com/archoleat/semantic-release-define-config/issues/30)) ([06b2ee5](https://github.com/archoleat/semantic-release-define-config/commit/06b2ee539ff8dd756fdd905136a7de39df55ab24))
+* **husky:** remove submodule ([#27](https://github.com/archoleat/semantic-release-define-config/issues/27)) ([e783f28](https://github.com/archoleat/semantic-release-define-config/commit/e783f28811fcdf4905adf59b0e60f2880c0b3d92))
+
 ## [1.1.1](https://github.com/archoleat/semantic-release-define-config/compare/v1.1.0...v1.1.1) (2024-03-27)
 
 

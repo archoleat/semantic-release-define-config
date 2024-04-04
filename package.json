@@ -1,7 +1,7 @@
 {
   "name": "@archoleat/semantic-release-define-config",
   "description": "Provide a defineConfig function for release.config.js file",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "license": "MIT",
   "author": {
     "email": "archoleat@gmail.com",
@@ -59,8 +59,8 @@
     "commit": "cz"
   },
   "devDependencies": {
-    "@archoleat/commitlint-define-config": "^1.0.2",
-    "@archoleat/eslint-flat-compatibility": "^1.1.0",
+    "@archoleat/commitlint-define-config": "^1.0.3",
+    "@archoleat/eslint-flat-compatibility": "^1.1.1",
     "@archoleat/semantic-release-define-config": "file:",
     "@commitlint/cli": "^19.2.1",
     "@commitlint/config-conventional": "^19.1.0",
@@ -91,7 +91,7 @@
     "rollup": "^4.14.0",
     "rollup-plugin-dts": "^6.1.0",
     "rollup-plugin-esbuild": "^6.1.1",
-    "semantic-release": "^23.0.6",
+    "semantic-release": "^23.0.7",
     "typescript": "^5.4.3",
     "vitest": "^1.4.0"
   }
