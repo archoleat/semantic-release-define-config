@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/archoleat/semantic-release-define-config/compare/v1.1.2...v1.1.3) (2024-04-05)
+
+
+### Code Refactoring
+
+* **eslint:** add `ecmaVersion` and `sourceType` ([#33](https://github.com/archoleat/semantic-release-define-config/issues/33)) ([a1f14d6](https://github.com/archoleat/semantic-release-define-config/commit/a1f14d630ade232be66b67ef90c520939db89da8))
+
 ## [1.1.2](https://github.com/archoleat/semantic-release-define-config/compare/v1.1.1...v1.1.2) (2024-04-04)
 
 
