@@ -4,12 +4,12 @@ import type { SemanticReleaseConfig } from '../src/types/index.d.ts';
 
 import { defineConfig } from '../src/index.ts';
 
-describe('Define Config', () => {
+describe('Define Semantic Release Config', () => {
   test('define empty config', () => {
     expectTypeOf(defineConfig({})).toEqualTypeOf<SemanticReleaseConfig>();
   });
 
-  test('define Semantic Release config', () => {
+  test('define config', () => {
     expectTypeOf(
       defineConfig({
         branches: [],
