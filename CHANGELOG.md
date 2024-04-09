@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.4](https://github.com/archoleat/semantic-release-define-config/compare/v1.1.3...v1.1.4) (2024-04-09)
+
+
+### Code Refactoring
+
+* **index:** remove extra braces ([#41](https://github.com/archoleat/semantic-release-define-config/issues/41)) ([0fabeae](https://github.com/archoleat/semantic-release-define-config/commit/0fabeae50dfa3668feef41db46db21b43d1d2412))
+
 ## [1.1.3](https://github.com/archoleat/semantic-release-define-config/compare/v1.1.2...v1.1.3) (2024-04-05)
 
 
