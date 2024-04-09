@@ -7,8 +7,7 @@ import type { SemanticReleaseConfig } from './types/index.d.ts';
  *
  * @returns Semantic Release config.
  */
-const defineConfig = (config: SemanticReleaseConfig): SemanticReleaseConfig => {
-  return config;
-};
+const defineConfig = (config: SemanticReleaseConfig): SemanticReleaseConfig =>
+  config;
 
 export { defineConfig };
