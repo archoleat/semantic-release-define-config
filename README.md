@@ -3,7 +3,7 @@
 ![NPM Version](https://img.shields.io/npm/v/%40archoleat%2Fsemantic-release-define-config)
 ![NPM Downloads](https://img.shields.io/npm/dm/%40archoleat%2Fsemantic-release-define-config)
 ![CodeQL](https://img.shields.io/github/actions/workflow/status/archoleat/semantic-release-define-config/codeql.yaml?label=CodeQL)
-![Test](https://img.shields.io/github/actions/workflow/status/archoleat/semantic-release-define-config/test.yaml?label=Test)
+![Specs](https://img.shields.io/github/actions/workflow/status/archoleat/semantic-release-define-config/spec.yaml?label=Specs)
 ![Commitlint](https://img.shields.io/github/actions/workflow/status/archoleat/semantic-release-define-config/commitlint.yaml?label=Commitlint)
 ![Editorconfig](https://img.shields.io/github/actions/workflow/status/archoleat/semantic-release-define-config/editorconfig.yaml?label=Editorconfig)
 ![Prettier](https://img.shields.io/github/actions/workflow/status/archoleat/semantic-release-define-config/prettier.yaml?label=Prettier)
