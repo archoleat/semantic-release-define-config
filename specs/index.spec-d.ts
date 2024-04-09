@@ -1,15 +1,15 @@
-import { describe, expectTypeOf, test } from 'vitest';
+import { describe, expectTypeOf, test as spec } from 'vitest';
 
 import type { SemanticReleaseConfig } from '../src/types/index.d.ts';
 
 import { defineConfig } from '../src/index.ts';
 
 describe('Define Semantic Release Config', () => {
-  test('define empty config', () => {
+  spec('define empty config', () => {
     expectTypeOf(defineConfig({})).toEqualTypeOf<SemanticReleaseConfig>();
   });
 
-  test('define config', () => {
+  spec('define config', () => {
     expectTypeOf(
       defineConfig({
         branches: [],
