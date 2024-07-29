@@ -24,11 +24,11 @@ export default defineConfig([
         entries: [
           {
             find: '#config',
-            replacement: `${types}/config`,
+            replacement: `${types}/config/index.d.ts`,
           },
           {
             find: '#branches',
-            replacement: `${types}/branches`,
+            replacement: `${types}/branches/index.d.ts`,
           },
         ],
       }),

@@ -38,9 +38,9 @@
   "type": "module",
   "types": "index.d.ts",
   "imports": {
-    "#src/*": "./src/*",
-    "#branches/*": "./src/types/branches/*",
-    "#config/*": "./src/types/config/*"
+    "#branches": "./src/types/branches/index.d.ts",
+    "#config": "./src/types/config/index.d.ts",
+    "#index": "./src/index.ts"
   },
   "exports": {
     ".": "./index.js"
