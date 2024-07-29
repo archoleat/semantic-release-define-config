@@ -1,12 +1,12 @@
 import { describe, expectTypeOf, test as spec } from 'vitest';
 
-import type { SemanticReleaseConfig } from '#config';
+import { Options } from 'semantic-release';
 
 import { defineConfig } from '#index';
 
 describe('Define Semantic Release Config', () => {
   spec('define empty config', () => {
-    expectTypeOf(defineConfig({})).toEqualTypeOf<SemanticReleaseConfig>();
+    expectTypeOf(defineConfig({})).toEqualTypeOf<Options>();
   });
 
   spec('define config', () => {
@@ -22,6 +22,6 @@ describe('Define Semantic Release Config', () => {
         repositoryUrl: '',
         tagFormat: '',
       }),
-    ).toEqualTypeOf<SemanticReleaseConfig>();
+    ).toEqualTypeOf<Options>();
   });
 });

@@ -3,40 +3,25 @@ import { defineConfig } from 'rollup';
 import { dts } from 'rollup-plugin-dts';
 import { minify } from 'rollup-plugin-esbuild';
 
-import alias from '@rollup/plugin-alias';
 import typescript from '@rollup/plugin-typescript';
 
-const indexFile = 'src/index.ts';
-const types = 'src/types';
+const fileName = 'index';
+const indexFile = `src/${fileName}.ts`;
 
 export default defineConfig([
   {
     plugins: [typescript(), minify()],
     input: indexFile,
     output: {
-      file: 'index.js',
+      file: `${fileName}.js`,
       format: 'es',
     },
   },
   {
-    plugins: [
-      alias({
-        entries: [
-          {
-            find: '#config',
-            replacement: `${types}/config/index.d.ts`,
-          },
-          {
-            find: '#branches',
-            replacement: `${types}/branches/index.d.ts`,
-          },
-        ],
-      }),
-      dts(),
-    ],
+    plugins: [dts()],
     input: indexFile,
     output: {
-      file: 'index.d.ts',
+      file: `${fileName}.d.ts`,
     },
   },
 ]);

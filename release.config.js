@@ -85,5 +85,5 @@ export default defineConfig({
     '@semantic-release/git',
     '@semantic-release/github',
   ],
-  preset: 'conventionalcommits',
+  preset: 'conventionalcommits', // add preset in default types
 });
