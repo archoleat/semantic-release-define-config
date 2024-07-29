@@ -32,7 +32,7 @@ export default defineConfig([
           },
         ],
       }),
-      dts()
+      dts(),
     ],
     input: indexFile,
     output: {
