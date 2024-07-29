@@ -1,4 +1,4 @@
-import type { SemanticReleaseConfig } from './types/index.d.ts';
+import type { SemanticReleaseConfig } from '#config/index.d.ts';
 
 /**
  * Define an Semantic Release config.

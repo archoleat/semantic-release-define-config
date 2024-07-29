@@ -1,8 +1,8 @@
 import { describe, expectTypeOf, test as spec } from 'vitest';
 
-import type { SemanticReleaseConfig } from '../src/types/index.d.ts';
+import type { SemanticReleaseConfig } from '#config/index.d.ts';
 
-import { defineConfig } from '../src/index.ts';
+import { defineConfig } from '#src/index.ts';
 
 describe('Define Semantic Release Config', () => {
   spec('define empty config', () => {
