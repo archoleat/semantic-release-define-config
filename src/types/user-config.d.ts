@@ -1,6 +1,6 @@
 import type { Options } from 'semantic-release';
 
-interface SemanticReleaseConfig extends Options {
+interface UserConfig extends Options {
   /**
    * All plugins will receive the `preset` option,
    * which will be used by both @semantic-release/commit-analyzer
@@ -9,4 +9,4 @@ interface SemanticReleaseConfig extends Options {
   preset?: string;
 }
 
-export { SemanticReleaseConfig };
+export { UserConfig };

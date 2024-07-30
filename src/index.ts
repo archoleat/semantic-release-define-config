@@ -1,4 +1,4 @@
-import type { SemanticReleaseConfig } from '#types';
+import type { UserConfig } from '#types';
 
 /**
  * Define an Semantic Release config.
@@ -7,7 +7,6 @@ import type { SemanticReleaseConfig } from '#types';
  *
  * @returns Semantic Release config.
  */
-const defineConfig = (config: SemanticReleaseConfig): SemanticReleaseConfig =>
-  config;
+const defineConfig = (config: UserConfig): UserConfig => config;
 
 export { defineConfig };

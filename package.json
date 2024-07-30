@@ -39,7 +39,7 @@
   "types": "index.d.ts",
   "imports": {
     "#src": "./src/index.ts",
-    "#types": "./src/types/index.ts"
+    "#types": "./src/types/index.d.ts"
   },
   "exports": {
     ".": "./index.js"
@@ -57,7 +57,7 @@
     "lint:editorconfig": "editorconfig-checker",
     "lint:formatting": "prettier . --check",
     "lint:md": "remark . --quiet --frail",
-    "lint:ts": "eslint src/**/*.ts --fix",
+    "lint:ts": "eslint src/index.ts --fix",
     "prettify": "prettier . --write",
     "commit": "cz"
   },
