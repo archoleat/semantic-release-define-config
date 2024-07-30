@@ -3,10 +3,12 @@ import { defineConfig } from 'rollup';
 import { dts } from 'rollup-plugin-dts';
 import { minify } from 'rollup-plugin-esbuild';
 
+import alias from '@rollup/plugin-alias';
 import typescript from '@rollup/plugin-typescript';
 
 const fileName = 'index';
 const indexFile = `src/${fileName}.ts`;
+const types = 'src/types';
 
 export default defineConfig([
   {
@@ -18,7 +20,17 @@ export default defineConfig([
     },
   },
   {
-    plugins: [dts()],
+    plugins: [
+      alias({
+        entries: [
+          {
+            find: '#types',
+            replacement: `${types}/index.ts`,
+          },
+        ],
+      }),
+      dts(),
+    ],
     input: indexFile,
     output: {
       file: `${fileName}.d.ts`,
