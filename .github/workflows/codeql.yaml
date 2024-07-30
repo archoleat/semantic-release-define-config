@@ -6,13 +6,13 @@ on:
       - main
     paths:
       - package.json
-      - src/**/*.ts
+      - src/index.ts
   push:
     branches:
       - main
     paths:
       - package.json
-      - src/**/*.ts
+      - src/index.ts
 
 permissions:
   actions: read
