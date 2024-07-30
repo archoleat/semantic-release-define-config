@@ -7,7 +7,6 @@ import { Options } from 'semantic-release';
  *
  * @returns Semantic Release config.
  */
-const defineConfig = (config: Options): Options =>
-  config;
+const defineConfig = (config: Options): Options => config;
 
 export { defineConfig };
