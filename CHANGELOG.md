@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.1.8](https://github.com/archoleat/semantic-release-define-config/compare/v1.1.7...v1.1.8) (2024-07-31)
+
+### Code Refactoring
+
+* **rollup:** add consts ([#94](https://github.com/archoleat/semantic-release-define-config/issues/94)) ([d82ca6c](https://github.com/archoleat/semantic-release-define-config/commit/d82ca6c4713e173f5bc0729de2c0da45cbfda204))
+* **vitest:** remove extra options ([#95](https://github.com/archoleat/semantic-release-define-config/issues/95)) ([c2186f5](https://github.com/archoleat/semantic-release-define-config/commit/c2186f5c36649452eaf9da4d353d448ef03d6d43))
+
+### Documentation
+
+* add badge ([#90](https://github.com/archoleat/semantic-release-define-config/issues/90)) ([aedfd79](https://github.com/archoleat/semantic-release-define-config/commit/aedfd79dc706e9a83afca0f2a5eb59f860efa5d8))
+
 ## [1.1.7](https://github.com/archoleat/semantic-release-define-config/compare/v1.1.6...v1.1.7) (2024-07-30)
 
 ### Reverts
