@@ -6,9 +6,10 @@ import { minify } from 'rollup-plugin-esbuild';
 import alias from '@rollup/plugin-alias';
 import typescript from '@rollup/plugin-typescript';
 
+const sourceFolder = 'src';
+const types = `${sourceFolder}/types`;
 const fileName = 'index';
 const indexFile = `src/${fileName}.ts`;
-const types = 'src/types';
 
 export default defineConfig([
   {
