@@ -1,3 +1,5 @@
+import { resolve } from 'node:path';
+
 import { defineConfig } from 'rollup';
 
 import { dts } from 'rollup-plugin-dts';
@@ -26,7 +28,7 @@ export default defineConfig([
         entries: [
           {
             find: '#types',
-            replacement: `${types}/${fileName}.d.ts`,
+            replacement: resolve(`${types}/${fileName}.d.ts`),
           },
         ],
       }),
