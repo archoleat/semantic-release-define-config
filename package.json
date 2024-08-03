@@ -17,10 +17,12 @@
     "url": "https://github.com/archoleat/semantic-release-define-config/issues"
   },
   "keywords": [
+    "archoleat-semantic-release-define-config",
     "archoleat",
     "config",
     "configuration",
     "define-config",
+    "plugin",
     "semantic-release-config",
     "semantic-release-define-config",
     "semantic-release",
@@ -75,6 +77,7 @@
     "@rollup/plugin-typescript": "^11.1.6",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
+    "@types/node": "^22.1.0",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
     "@vitest/coverage-v8": "^2.0.5",
