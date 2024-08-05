@@ -9,9 +9,10 @@ import alias from '@rollup/plugin-alias';
 import typescript from '@rollup/plugin-typescript';
 
 const sourceFolder = 'src';
-const types = `${sourceFolder}/types`;
+const typesFolder = `${sourceFolder}/types`;
 const fileName = 'index';
-const indexFile = `src/${fileName}.ts`;
+const declarationFile = `${fileName}.d.ts`;
+const indexFile = `${sourceFolder}/${fileName}.ts`;
 
 export default defineConfig([
   {
@@ -28,7 +29,7 @@ export default defineConfig([
         entries: [
           {
             find: '#types',
-            replacement: resolve(`${types}/${fileName}.d.ts`),
+            replacement: resolve(`${typesFolder}/${declarationFile}`),
           },
         ],
       }),
@@ -36,7 +37,8 @@ export default defineConfig([
     ],
     input: indexFile,
     output: {
-      file: `${fileName}.d.ts`,
+      file: declarationFile,
+      format: 'es',
     },
   },
 ]);
