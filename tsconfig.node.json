@@ -3,7 +3,6 @@
     "allowImportingTsExtensions": true,
     "composite": true,
     "emitDeclarationOnly": true,
-    "forceConsistentCasingInFileNames": true,
     "lib": ["ESNext"],
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
