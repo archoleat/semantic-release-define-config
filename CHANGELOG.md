@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.12](https://github.com/archoleat/semantic-release-define-config/compare/v1.1.11...v1.1.12) (2024-08-05)
+
+### Code Refactoring
+
+* small changes ([#107](https://github.com/archoleat/semantic-release-define-config/issues/107)) ([00a1bc7](https://github.com/archoleat/semantic-release-define-config/commit/00a1bc7b1a50395ca45df8b26974e6f39d55a1cd))
+
 ## [1.1.11](https://github.com/archoleat/semantic-release-define-config/compare/v1.1.10...v1.1.11) (2024-08-05)
 
 ### Code Refactoring
