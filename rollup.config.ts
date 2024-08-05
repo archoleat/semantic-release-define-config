@@ -10,17 +10,21 @@ import typescript from '@rollup/plugin-typescript';
 
 const sourceFolder = 'src';
 const typesFolder = `${sourceFolder}/types`;
+
 const fileName = 'index';
+const indexFile = `${fileName}.ts`;
 const declarationFile = `${fileName}.d.ts`;
-const indexFile = `${sourceFolder}/${fileName}.ts`;
+const outputFile = `${fileName}.js`;
+
+const fileFormat = 'es';
 
 export default defineConfig([
   {
     plugins: [typescript(), minify()],
-    input: indexFile,
+    input: `${sourceFolder}/${indexFile}`,
     output: {
-      file: `${fileName}.js`,
-      format: 'es',
+      file: outputFile,
+      format: fileFormat,
     },
   },
   {
@@ -35,10 +39,10 @@ export default defineConfig([
       }),
       dts(),
     ],
-    input: indexFile,
+    input: `${sourceFolder}/${indexFile}`,
     output: {
       file: declarationFile,
-      format: 'es',
+      format: fileFormat,
     },
   },
 ]);
