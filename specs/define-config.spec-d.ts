@@ -4,12 +4,12 @@ import { UserConfig } from '#types';
 
 import { defineConfig } from '#src';
 
-describe('Define Semantic Release Config', () => {
-  spec('define empty config', async () => {
+describe('Semantic Release Config', () => {
+  spec('empty config', async () => {
     expectTypeOf(defineConfig({})).toEqualTypeOf<UserConfig>();
   });
 
-  spec('define config', async () => {
+  spec('config', async () => {
     expectTypeOf(
       defineConfig({
         branches: [],
