@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.14](https://github.com/archoleat/semantic-release-define-config/compare/v1.1.13...v1.1.14) (2024-08-09)
+
+### Code Refactoring
+
+* add compile files in root ([#111](https://github.com/archoleat/semantic-release-define-config/issues/111)) ([187ad5a](https://github.com/archoleat/semantic-release-define-config/commit/187ad5a6fd12a48b95e3a593461a32d3d8ef0940))
+* add define-config ([#112](https://github.com/archoleat/semantic-release-define-config/issues/112)) ([be5c21a](https://github.com/archoleat/semantic-release-define-config/commit/be5c21a6332d4302aac8f2ecd54669af99a6a882))
+* small changes ([#113](https://github.com/archoleat/semantic-release-define-config/issues/113)) ([accce40](https://github.com/archoleat/semantic-release-define-config/commit/accce40935779aa1c4533288682a5480cac831d1))
+
 ## [1.1.13](https://github.com/archoleat/semantic-release-define-config/compare/v1.1.12...v1.1.13) (2024-08-06)
 
 ### Code Refactoring
