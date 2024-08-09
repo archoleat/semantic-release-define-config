@@ -48,12 +48,6 @@ jobs:
       - name: Install Dependencies
         run: pnpm i
 
-      - name: Build
-        run: pnpm build
-
-      - name: Update Dependencies
-        run: pnpm update
-
       - name: Create Release
         env:
           GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
