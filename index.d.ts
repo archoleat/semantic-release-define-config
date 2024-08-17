@@ -14,7 +14,7 @@ interface UserConfig extends Options {
 /**
  * Define an Semantic Release config.
  *
- * @param {object} config Semantic Release config.
+ * @param {object} config Semantic Release.
  *
  * @returns Semantic Release config.
  */
