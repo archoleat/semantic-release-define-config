@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.1.15](https://github.com/archoleat/semantic-release-define-config/compare/v1.1.14...v1.1.15) (2024-08-24)
+
+### Bug Fixes
+
+* types ([#132](https://github.com/archoleat/semantic-release-define-config/issues/132)) ([2be602e](https://github.com/archoleat/semantic-release-define-config/commit/2be602eea8e97eb696c44aba3afe01d36bf1d8f9))
+
+### Code Refactoring
+
+* move scripts to ci ([#123](https://github.com/archoleat/semantic-release-define-config/issues/123)) ([d3e3434](https://github.com/archoleat/semantic-release-define-config/commit/d3e3434da451bd646191d9259ca20bdd2ed78f41))
+* **prettierignore:** remove `.czrc` ([#131](https://github.com/archoleat/semantic-release-define-config/issues/131)) ([2c146a2](https://github.com/archoleat/semantic-release-define-config/commit/2c146a2190a88c790fd68080a949746e329992d1))
+* **tsconfig:** remove `composite` option ([#121](https://github.com/archoleat/semantic-release-define-config/issues/121)) ([8518ced](https://github.com/archoleat/semantic-release-define-config/commit/8518ced055e94c9a2d77778ede481fe6110c7e33))
+* small changes ([#119](https://github.com/archoleat/semantic-release-define-config/issues/119)) ([7f90382](https://github.com/archoleat/semantic-release-define-config/commit/7f90382429a5d72d63001a9d3172f71cfeb815f8))
+
+### Documentation
+
+* **readme:** remove extra scripts ([#122](https://github.com/archoleat/semantic-release-define-config/issues/122)) ([10ddc1e](https://github.com/archoleat/semantic-release-define-config/commit/10ddc1e7c73dbf1aa1d326b48b6098b1603dff38))
+* **readme:** rewrite install script ([#120](https://github.com/archoleat/semantic-release-define-config/issues/120)) ([5dc019a](https://github.com/archoleat/semantic-release-define-config/commit/5dc019a813d17c52925eaf7fb20e99efab51f88b))
+
 ## [1.1.14](https://github.com/archoleat/semantic-release-define-config/compare/v1.1.13...v1.1.14) (2024-08-09)
 
 ### Code Refactoring
