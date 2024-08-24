@@ -33,7 +33,7 @@ export default defineConfig([
         entries: [
           {
             find: '#types',
-            replacement: resolve(`${typesFolder}/${declarationFile}`),
+            replacement: resolve(`${typesFolder}/${indexFile}`),
           },
         ],
       }),
