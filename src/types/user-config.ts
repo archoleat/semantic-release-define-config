@@ -11,4 +11,4 @@ interface UserConfig extends Options {
   preset?: string;
 }
 
-export { UserConfig };
+export type { UserConfig };
