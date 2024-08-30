@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.16](https://github.com/archoleat/semantic-release-define-config/compare/v1.1.15...v1.1.16) (2024-08-30)
+
+### Bug Fixes
+
+* **eslint-config:** add `files` option ([#138](https://github.com/archoleat/semantic-release-define-config/issues/138)) ([c4cf968](https://github.com/archoleat/semantic-release-define-config/commit/c4cf96859350012882fa0f610d35227d6d066700))
+
+### Code Refactoring
+
+* eslint ([#137](https://github.com/archoleat/semantic-release-define-config/issues/137)) ([20d1c96](https://github.com/archoleat/semantic-release-define-config/commit/20d1c964269ae64347e42edf111aaff3dde08ce2))
+* **codeql:** path ([#133](https://github.com/archoleat/semantic-release-define-config/issues/133)) ([9c70d1f](https://github.com/archoleat/semantic-release-define-config/commit/9c70d1ff55c5a2888476e519b591b865ab7f299c))
+* remove index file ([#139](https://github.com/archoleat/semantic-release-define-config/issues/139)) ([b02eb6b](https://github.com/archoleat/semantic-release-define-config/commit/b02eb6bdaa252d1b8bed1b172079208a46e06982))
+
 ## [1.1.15](https://github.com/archoleat/semantic-release-define-config/compare/v1.1.14...v1.1.15) (2024-08-24)
 
 ### Bug Fixes
