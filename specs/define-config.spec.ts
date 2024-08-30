@@ -1,8 +1,8 @@
 import { describe, expectTypeOf, test as spec } from 'vitest';
 
-import { UserConfig } from '#types';
+import { UserConfig } from '#types/user-config.ts';
 
-import { defineConfig } from '#src';
+import { defineConfig } from '#app';
 
 describe('Semantic Release Config', () => {
   spec('empty config', async () => {

@@ -12,16 +12,17 @@ const sourceFolder = 'src';
 const typesFolder = `${sourceFolder}/types`;
 
 const fileFormat = 'es';
-const fileName = 'index';
+const entryFileName = 'app';
+const outputFileName = 'index';
 
-const declarationFile = `${fileName}.d.ts`;
-const indexFile = `${fileName}.ts`;
-const outputFile = `${fileName}.js`;
+const declarationFile = `${outputFileName}.d.ts`;
+const entryFile = `${entryFileName}.ts`;
+const outputFile = `${outputFileName}.js`;
 
 export default defineConfig([
   {
     plugins: [typescript(), minify()],
-    input: `${sourceFolder}/${indexFile}`,
+    input: `${sourceFolder}/${entryFile}`,
     output: {
       file: outputFile,
       format: fileFormat,
@@ -33,13 +34,13 @@ export default defineConfig([
         entries: [
           {
             find: '#types',
-            replacement: resolve(`${typesFolder}/${indexFile}`),
+            replacement: resolve(typesFolder),
           },
         ],
       }),
       dts(),
     ],
-    input: `${sourceFolder}/${indexFile}`,
+    input: `${sourceFolder}/${entryFile}`,
     output: {
       file: declarationFile,
       format: fileFormat,
