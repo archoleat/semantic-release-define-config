@@ -29,13 +29,12 @@ bun i -D @archoleat/semantic-release-define-config
 
 See [Semantic Release Configuration](https://semantic-release.gitbook.io/semantic-release/usage/configuration#options).
 
+Add the following code to the `release.config.js` file:
+
 ```js
-// release.config.js
 import { defineConfig } from '@archoleat/semantic-release-define-config';
 
-export default defineConfig({
-  // Your options
-})
+export default defineConfig({})
 ```
 
 ## Contributing
