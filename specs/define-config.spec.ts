@@ -1,18 +1,26 @@
 import { describe, expectTypeOf, test as spec } from 'vitest';
 
-import { UserConfig } from '#types/user-config.ts';
+import { UserConfig } from '#types';
 
-import { defineConfig } from '#app';
+import { defineConfig } from '#index';
 
-describe('Semantic Release Config', () => {
-  spec('empty config', async () => {
+describe('Semantic Release Config', async () => {
+  spec('should return empty config', async () => {
     expectTypeOf(defineConfig({})).toEqualTypeOf<UserConfig>();
   });
 
-  spec('config', async () => {
+  spec('should return config', async () => {
     expectTypeOf(
       defineConfig({
-        branches: [],
+        branches: [
+          'main',
+          {
+            channel: 'next',
+            name: 'alpha',
+            prerelease: true,
+            range: '',
+          },
+        ],
         ci: false,
         debug: false,
         dryRun: false,
