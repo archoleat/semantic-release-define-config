@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.17](https://github.com/archoleat/semantic-release-define-config/compare/v1.1.16...v1.1.17) (2024-09-22)
+
+### Code Refactoring
+
+* **package:** add `git+` ([#144](https://github.com/archoleat/semantic-release-define-config/issues/144)) ([d03580b](https://github.com/archoleat/semantic-release-define-config/commit/d03580b309536bd68af9380546b0032e2ee01cb9))
+* **prettier:** remove json override ([#145](https://github.com/archoleat/semantic-release-define-config/issues/145)) ([6eb21c9](https://github.com/archoleat/semantic-release-define-config/commit/6eb21c97fbbeac1bf3b5f10c89c43b22c105540f))
+* specs ([#146](https://github.com/archoleat/semantic-release-define-config/issues/146)) ([e86a75b](https://github.com/archoleat/semantic-release-define-config/commit/e86a75b7e247fc95454f5bd312f933b3ca608b63))
+
+### Documentation
+
+* **readme:** update ([#142](https://github.com/archoleat/semantic-release-define-config/issues/142)) ([c679b0f](https://github.com/archoleat/semantic-release-define-config/commit/c679b0ff0b6f3b702eccad9c698fcc2393e1dd80))
+
 ## [1.1.16](https://github.com/archoleat/semantic-release-define-config/compare/v1.1.15...v1.1.16) (2024-08-30)
 
 ### Bug Fixes
