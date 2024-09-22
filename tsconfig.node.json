@@ -14,7 +14,7 @@
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "paths": {
-      "#types/*": ["./src/types/*"]
+      "#types": ["./src/types/index.ts"]
     },
     "rootDir": "src",
     "types": ["vitest"],
