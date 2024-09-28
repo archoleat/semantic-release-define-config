@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.2.0](https://github.com/archoleat/semantic-release-define-config/compare/v1.1.17...v1.2.0) (2024-09-28)
+
+### Features
+
+* add `funding.yaml` ([#148](https://github.com/archoleat/semantic-release-define-config/issues/148)) ([49b39f6](https://github.com/archoleat/semantic-release-define-config/commit/49b39f67d152a390ac363b7baf2d7a2d799a92f2))
+
+### Code Refactoring
+
+* move build script to `release.yaml` ([#149](https://github.com/archoleat/semantic-release-define-config/issues/149)) ([237669e](https://github.com/archoleat/semantic-release-define-config/commit/237669ee19210d55a9bfa2f8f3ee2c0957c40cce))
+* rewrite comment ([#150](https://github.com/archoleat/semantic-release-define-config/issues/150)) ([0f71e9c](https://github.com/archoleat/semantic-release-define-config/commit/0f71e9cd68fb8d66a102363a3ec0c8619eeb1ccc))
+
 ## [1.1.17](https://github.com/archoleat/semantic-release-define-config/compare/v1.1.16...v1.1.17) (2024-09-22)
 
 ### Code Refactoring
