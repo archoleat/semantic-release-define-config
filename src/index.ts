@@ -5,7 +5,7 @@ import type { UserConfig } from '#types';
  *
  * @param {object} config Semantic Release.
  *
- * @returns Semantic Release config.
+ * @return Semantic Release config.
  */
 const defineConfig = (config: UserConfig): UserConfig => config;
 
