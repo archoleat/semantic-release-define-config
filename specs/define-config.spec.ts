@@ -1,7 +1,6 @@
 import { describe, expectTypeOf, test as spec } from 'vitest';
 
 import { defineConfig } from '#index';
-
 import type { UserConfig } from '#types';
 
 describe('Semantic Release Config', async () => {
