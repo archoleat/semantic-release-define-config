@@ -1,4 +1,4 @@
-import type { UserConfig } from '#types';
+import type { UserConfig } from '#types/user-config.ts';
 
 /**
  * Define an Semantic Release config.

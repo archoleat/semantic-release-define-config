@@ -28,7 +28,7 @@ export default defineConfig([
         entries: [
           {
             find: '#types',
-            replacement: resolve(`${typesFolder}/${entryFile}`),
+            replacement: resolve(`${typesFolder}/`),
           },
         ],
       }),
