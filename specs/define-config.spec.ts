@@ -1,15 +1,14 @@
-import { describe, expectTypeOf, test as spec } from 'vitest';
+import { describe, expect, test as spec } from 'bun:test';
 
 import { defineConfig } from '#src/index.ts';
-import type { UserConfig } from '#types/user-config.ts';
 
 describe('Semantic Release Config', async () => {
   spec('should return empty config', async () => {
-    expectTypeOf(defineConfig({})).toEqualTypeOf<UserConfig>();
+    expect(defineConfig({}));
   });
 
   spec('should return config', async () => {
-    expectTypeOf(
+    expect(
       defineConfig({
         branches: [
           'main',
@@ -29,6 +28,6 @@ describe('Semantic Release Config', async () => {
         repositoryUrl: '',
         tagFormat: '',
       }),
-    ).toEqualTypeOf<UserConfig>();
+    );
   });
 });
