@@ -1,4 +1,4 @@
-import { describe, test as spec } from 'vitest';
+import { describe, test as spec } from 'bun:test';
 import { expectTypeOf } from 'expect-type';
 
 import { defineConfig } from '#src/index.ts';
