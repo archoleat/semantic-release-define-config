@@ -1,5 +1,50 @@
 # Changelog
 
+## [1.3.0](https://github.com/archoleat/semantic-release-define-config/compare/v1.2.0...v1.3.0) (2025-08-17)
+
+### ⚠ BREAKING CHANGES
+
+* migrate to bun (#174)
+
+### Features
+
+* add behavior bot ([#166](https://github.com/archoleat/semantic-release-define-config/issues/166)) ([a9a8b18](https://github.com/archoleat/semantic-release-define-config/commit/a9a8b189e6f91914559e06e5ffbd1672def21ea8))
+
+### Bug Fixes
+
+* checker ([#183](https://github.com/archoleat/semantic-release-define-config/issues/183)) ([0863807](https://github.com/archoleat/semantic-release-define-config/commit/086380768370e7e3003df6991a1658a5c76b4e5c))
+* pre-commit action ([#157](https://github.com/archoleat/semantic-release-define-config/issues/157)) ([88e75a3](https://github.com/archoleat/semantic-release-define-config/commit/88e75a3fa618e0d52aabae966e0008f27b6ad67a))
+* spec ([#228](https://github.com/archoleat/semantic-release-define-config/issues/228)) ([57f82c1](https://github.com/archoleat/semantic-release-define-config/commit/57f82c10766903f00761f661571a94b8740f8707))
+* tsconfig.json ([#173](https://github.com/archoleat/semantic-release-define-config/issues/173)) ([cd29441](https://github.com/archoleat/semantic-release-define-config/commit/cd29441de431e13081593a2a391681ec80ca6030))
+* tslib ([#230](https://github.com/archoleat/semantic-release-define-config/issues/230)) ([c3dd205](https://github.com/archoleat/semantic-release-define-config/commit/c3dd2058d1141d5e31e59212a766e766acbb3ab5))
+
+### Code Refactoring
+
+* .editorconfig-checker.json ([32bdbc5](https://github.com/archoleat/semantic-release-define-config/commit/32bdbc57082b23e3d539d0dbc3b514ef8422f5bb))
+* actions ([#226](https://github.com/archoleat/semantic-release-define-config/issues/226)) ([27fdd39](https://github.com/archoleat/semantic-release-define-config/commit/27fdd395d9b7ef19c5412d30f27a77dd18619c6f))
+* define-config.spec.ts ([#195](https://github.com/archoleat/semantic-release-define-config/issues/195)) ([117e91f](https://github.com/archoleat/semantic-release-define-config/commit/117e91f4caf7dfb520b5e9d255f72d94bfa5aed5))
+* dependabot ([#220](https://github.com/archoleat/semantic-release-define-config/issues/220)) ([e49af34](https://github.com/archoleat/semantic-release-define-config/commit/e49af3402242f7ab7b9ad6a59a8a5e7bbac63fcc))
+* ecrc ([5a207aa](https://github.com/archoleat/semantic-release-define-config/commit/5a207aa90ab96ad5e6068932a8c6500fc290ce73))
+* ecrc ([745f309](https://github.com/archoleat/semantic-release-define-config/commit/745f309242f5fdacdeb5ac0bc8a44df95d99acca))
+* ignore ([895c249](https://github.com/archoleat/semantic-release-define-config/commit/895c2493b3753755576318084077380f3c84ea3c))
+* migrate to bun ([#174](https://github.com/archoleat/semantic-release-define-config/issues/174)) ([e28e4b6](https://github.com/archoleat/semantic-release-define-config/commit/e28e4b6bfa4bec457df29321f13f826c5ccbd9d9))
+* prettierignore ([88c9883](https://github.com/archoleat/semantic-release-define-config/commit/88c98835dc3001a9ca3d41365892b35221e0bb09))
+* remove codeql advanced ([#167](https://github.com/archoleat/semantic-release-define-config/issues/167)) ([2f60fef](https://github.com/archoleat/semantic-release-define-config/commit/2f60fefdd0934f23ba495d26ceed1a147cfd51f3))
+* remove comments ([96ee978](https://github.com/archoleat/semantic-release-define-config/commit/96ee978948648a10c13d266a4722450635dfde3c))
+* small changes ([#158](https://github.com/archoleat/semantic-release-define-config/issues/158)) ([994e521](https://github.com/archoleat/semantic-release-define-config/commit/994e52159c22f9f8575f19cf8ed21cdeff9e871c))
+* small changes ([#164](https://github.com/archoleat/semantic-release-define-config/issues/164)) ([ce1465e](https://github.com/archoleat/semantic-release-define-config/commit/ce1465eb8223f86560efc97b867b4cec894379ed))
+* small changes ([#165](https://github.com/archoleat/semantic-release-define-config/issues/165)) ([0675b80](https://github.com/archoleat/semantic-release-define-config/commit/0675b8058f3959de05f4f5635ee8694e5cce94fd))
+* small changes ([#169](https://github.com/archoleat/semantic-release-define-config/issues/169)) ([f9f7aa4](https://github.com/archoleat/semantic-release-define-config/commit/f9f7aa42a378bcbdacb55aa1b60ce32fee028898))
+* small changes ([#172](https://github.com/archoleat/semantic-release-define-config/issues/172)) ([91894cb](https://github.com/archoleat/semantic-release-define-config/commit/91894cbf20e66778448ac629c2f913bb0c8aad1c))
+* spec ([#227](https://github.com/archoleat/semantic-release-define-config/issues/227)) ([1b89290](https://github.com/archoleat/semantic-release-define-config/commit/1b8929089b499ffa78b29bce018251d20e3f2748))
+* structure ([#171](https://github.com/archoleat/semantic-release-define-config/issues/171)) ([9dafa18](https://github.com/archoleat/semantic-release-define-config/commit/9dafa182443ae3b7f8efa9ba0b7306040f39b10d))
+* tsconfig ([0af27a9](https://github.com/archoleat/semantic-release-define-config/commit/0af27a97a72cd965c33048d170ce936e1f7542ce))
+
+### Documentation
+
+* **readme:** remove extra badges ([#168](https://github.com/archoleat/semantic-release-define-config/issues/168)) ([aa0138a](https://github.com/archoleat/semantic-release-define-config/commit/aa0138ad6656ca7e1ba43cf030f0155904e3a82b))
+* **readme:** rewrite ([04b73dd](https://github.com/archoleat/semantic-release-define-config/commit/04b73dd910398065f8e41b1f087ad4fc23e0aea2))
+
 ## [1.2.0](https://github.com/archoleat/semantic-release-define-config/compare/v1.1.17...v1.2.0) (2024-09-28)
 
 ### Features
