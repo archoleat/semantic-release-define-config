@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.3](https://github.com/archoleat/semantic-release-define-config/compare/v1.3.2...v1.3.3) (2026-09-15)
+
+### Bug Fixes
+
+* **ci:** declare TypeScript and use client-id ([0d325be](https://github.com/archoleat/semantic-release-define-config/commit/0d325be80d6495c4f2f55e53b4f23a75cd4def5b))
+* **release:** use compatible changelog preset ([ab25bea](https://github.com/archoleat/semantic-release-define-config/commit/ab25beab6cc5ddd1e0ce10e6aa0213d2d83e6ec3))
+
 ## [1.3.2](https://github.com/archoleat/semantic-release-define-config/compare/v1.3.1...v1.3.2) (2026-07-01)
 
 ### Bug Fixes

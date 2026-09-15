@@ -1,7 +1,7 @@
 {
   "name": "@archoleat/semantic-release-define-config",
   "description": "Provide a defineConfig function for Semantic Release",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "license": "MIT",
   "author": {
     "email": "nikkeyl.me@gmail.com",
