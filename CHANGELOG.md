@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.3.4](https://github.com/archoleat/semantic-release-define-config/compare/v1.3.3...v1.3.4) (2026-11-09)
+
+### Bug Fixes
+
+* publish current documentation and runtime guidance ([351e9e7](https://github.com/archoleat/semantic-release-define-config/commit/351e9e7d77f02e29c81b23e15b232506b3d52903))
+
+### Documentation
+
+* clarify usage and project constraints ([24cc662](https://github.com/archoleat/semantic-release-define-config/commit/24cc662f54af49205737960960e2040a00a98852))
+
 ## [1.3.3](https://github.com/archoleat/semantic-release-define-config/compare/v1.3.2...v1.3.3) (2026-09-15)
 
 ### Bug Fixes
