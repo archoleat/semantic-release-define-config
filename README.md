@@ -17,7 +17,12 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-Provide a defineConfig function for Semantic Release.
+Use `defineConfig` for completion when composing semantic-release options
+and plugin configuration. It returns the object unchanged and bundles its
+own `UserConfig` type; native typing is sufficient when your installed tools
+already provide the types you need. The declared peer ranges cover
+semantic-release 23–25; plugin versions and credentials must be configured
+separately, and this helper performs no runtime validation.
 
 ## Installation
 
@@ -34,7 +39,7 @@ Add the following code to the `release.config.js` file:
 ```js
 import { defineConfig } from '@archoleat/semantic-release-define-config';
 
-export default defineConfig({})
+export default defineConfig({});
 ```
 
 ## Contributing
