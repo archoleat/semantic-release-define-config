@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.3.6](https://github.com/archoleat/semantic-release-define-config/compare/v1.3.5...v1.3.6) (2026-11-09)
+
+### Bug Fixes
+
+* align package description with repository metadata ([fa18022](https://github.com/archoleat/semantic-release-define-config/commit/fa18022cc59f035afc8a605b682934480686c5fd))
+
 ## [1.3.5](https://github.com/archoleat/semantic-release-define-config/compare/v1.3.4...v1.3.5) (2026-11-09)
 
 ### Bug Fixes
