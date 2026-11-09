@@ -1,6 +1,6 @@
 {
   "name": "@archoleat/semantic-release-define-config",
-  "description": "Provide a defineConfig function for Semantic Release",
+  "description": "Typed defineConfig helper for semantic-release configuration and editor completion.",
   "version": "1.3.5",
   "license": "MIT",
   "author": {
