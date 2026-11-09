@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.3.5](https://github.com/archoleat/semantic-release-define-config/compare/v1.3.4...v1.3.5) (2026-11-09)
+
+### Bug Fixes
+
+* align npm keywords with repository topics ([f72c0bf](https://github.com/archoleat/semantic-release-define-config/commit/f72c0bfeffc2a183baadb0a91a4276c079fe7377))
+
 ## [1.3.4](https://github.com/archoleat/semantic-release-define-config/compare/v1.3.3...v1.3.4) (2026-11-09)
 
 ### Bug Fixes
